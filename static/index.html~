@@ -17,7 +17,7 @@
 		</td>
 		    
 		<td>
-		    <button class="btn">
+		    <button class="btn" id="helpBtn">
 		    <!--<a class="btn btn-small" href="#">
 			<i class="icon-question-sign"></i>
 		</a>-->
