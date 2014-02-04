@@ -12,5 +12,15 @@ p{
 
 #selectActBtn{
     margin-left: 15px;
-    width: 200px;
+    width: 195px;
+    margin-top: 5px;
+}
+
+#notif{
+    padding-left: 15px;
+}
+
+#helpBtn{
+	width: 35px;
+	height: 35px; 
 }
