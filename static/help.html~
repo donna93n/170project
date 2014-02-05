@@ -13,34 +13,22 @@
 	<table>
 	    <tr>
 		<td class="title">
-		    <h1>Study App</h1>
+			<h1>Help</h1>
 		</td>
 		    
 		<td>
 		    <button class="btn" id="helpBtn">
+		    <!--<a class="btn btn-small" href="#">
+			<i class="icon-question-sign"></i>
+		</a>-->
 			<i class="icon-question-sign"></i>
 		    </button>
-		    
 		</td>
 	    </tr>
 	</table>
 
-	<div id="homepg">
-	    <table> 
-	    <tr>
-		<td> <p class="text">Study Mode</p> </td>
-		<td>
-		<div style="float: right;" class="btn-group" data-toggle="buttons-radio">
-		    <button type="button" class="btn btn-primary text">On</button>
-		    <button type="button" class="btn btn-primary text">Off</button>
-		</div>
-		</td>
-	    </tr> 
-
-	    </table>
-	    <button id="selectActBtn" class="btn btn-large text">Select Activity</button>
-	    <p class="text">Current Activity: </p>
-	    <a id="notif" class="text" href="#">See 3 Blocked Notifcations</a>
+	<div id="helpsection">
+	   
 	</div>
 
 
@@ -60,3 +48,4 @@
 </body>
 
 </html>
+

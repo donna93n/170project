@@ -1,5 +1,12 @@
+h1{
+    font-size: 50px;  
+}
+
+.text{
+    font-size: 20px;
+}
 .title{
-    padding-left:50px; 
+    padding-left:15px; 
     padding-right:10px;
 }
 
@@ -14,6 +21,7 @@ p{
     margin-left: 15px;
     width: 195px;
     margin-top: 5px;
+    padding-left: 15px;
 }
 
 #notif{
@@ -21,6 +29,7 @@ p{
 }
 
 #helpBtn{
-	width: 35px;
-	height: 35px; 
+    width: 40px;
+    height: 30px;
+    /*padding-bottom: 5px;*/
 }
