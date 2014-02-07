@@ -9,49 +9,38 @@
 </head>
 
 <body onload="run()">
-    <div class="title-bar">
-	<table>
-	    <tr>
-		<td class="title">
-		    <h1>Study App</h1>
-		</td>
-		    
-		<td>
-		    <button class="btn" id="helpBtn" onclick="window.location='help.html'">
+	<div id="title-bar">
+	<table id="header"> <tr> <td>
+	    <h1>Study App</h1>
+	    <button class="btn" id="helpBtn" onclick="window.location='help.html'">
 			<i class="icon-question-sign"></i>
-		    </button>
-		    
-		</td>
-	    </tr>
-	</table>
+		</button>
+	</td></tr></table>
+	</div>
 
-	<div id="homepg">
-		<p class="text" style="float:left;">Study Mode</p>
-		
+	<div id="homepg" style="clear:both;">
+		<p style="float:left;" class="text">Study Mode</p>
 		<div style="float: right;" class="btn-group" data-toggle="buttons-radio">
 		    <button type="button" class="btn btn-primary text">On</button>
 		    <button type="button" class="btn btn-primary text">Off</button>
-		</div>
+	    	</div>
 		
-	     
-
-	    
-	    <div style="clear:both;">
-	    <button id="selectActBtn" class="btn btn-large text">Select Activity</button>
-    		</div>
+		<div style="clear:both;">
+		<button id="selectActBtn" class="btn btn-large text">Select Activity</button>
+		</div>
 	    <p class="text">Current Activity: </p>
-	    <a id="notif" class="text" href="#">See Blocked Notifcations</a>
+	    <a id="notif" class="text" href="#">See 3 Blocked Notifcations</a>
 	</div>
 
 
 
-    </div>
+    
 
 
     <script type="text/javascript">
 	function run(){
 		$('.btn').button();
-		$("#selectActBtn").css("width", screen.width-40);
+		$("#selectActBtn").css("width", screen.width-40)
 	}
     </script>
 
