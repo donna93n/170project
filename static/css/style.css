@@ -1,5 +1,5 @@
 h1{
-    font-size: 50px;
+    font-size: 40px;
 	float: left; 
 }
 
@@ -25,6 +25,7 @@ p{
 #selectActBtn{
     margin-top: 5px;
     clear: both;
+	width: 500px;
 }
 
 #notif{
