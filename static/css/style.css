@@ -5,6 +5,7 @@ h1{
 
 .text{
     font-size: 20px;
+	margin-top: 10px;
 }
 #title-bar{
     margin-bottom: 15px;
@@ -31,18 +32,16 @@ p{
 }
 
 #selectBtnContainer{
-	clear:both;
+	clear: both;
 	text-align: center;
 }
 
-#notif{
-}
 
 #helpBtn{
     width: 40px;
     height: 30px;
     padding-bottom: 5px;
-	margin-top: 20px;
+	margin-top: auto;
 	margin-left: 15px;
 	
 }
