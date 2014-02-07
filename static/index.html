@@ -4,7 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link rel="stylesheet" href="css/bootstrap-switch.css">
-<!--<link href="css/style.css" rel="stylesheet" media="handheld, only screen and (max-device-width:320px)"> -->
 <link href="css/style.css" rel="stylesheet" media="screen">
 
 </head>
@@ -27,21 +26,21 @@
 	</table>
 
 	<div id="homepg">
-	    <table> 
-	    <tr>
-		<td> <p class="text">Study Mode</p> </td>
-		<td>
+		<p class="text" style="float:left;">Study Mode</p>
+		
 		<div style="float: right;" class="btn-group" data-toggle="buttons-radio">
 		    <button type="button" class="btn btn-primary text">On</button>
 		    <button type="button" class="btn btn-primary text">Off</button>
 		</div>
-		</td>
-	    </tr> 
+		
+	     
 
-	    </table>
+	    
+	    <div style="clear:both;">
 	    <button id="selectActBtn" class="btn btn-large text">Select Activity</button>
+    		</div>
 	    <p class="text">Current Activity: </p>
-	    <a id="notif" class="text" href="#">See 3 Blocked Notifcations</a>
+	    <a id="notif" class="text" href="#">See Blocked Notifcations</a>
 	</div>
 
 
@@ -51,7 +50,8 @@
 
     <script type="text/javascript">
 	function run(){
-	    $('.btn').button();
+		$('.btn').button();
+		$("#selectActBtn").css("width", screen.width-40);
 	}
     </script>
 

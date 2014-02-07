@@ -1,5 +1,7 @@
 h1{
     font-size: 50px;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text{
@@ -13,23 +15,30 @@ h1{
 p{
     padding-top: 10px; 
     padding-bottom: 5px; 
-    padding-left: 15px;
+    /*padding-left: 15px;*/
     padding-right: 20px;
 }
 
 #selectActBtn{
-    margin-left: 15px;
-    width: 195px;
+    /*margin-left: 15px;
+    width: 195px;*/
     margin-top: 5px;
-    padding-left: 15px;
+    clear: both;
+    /*padding-left: 15px;*/
 }
 
 #notif{
-    padding-left: 15px;
+    /*padding-left: 15px;*/
 }
 
 #helpBtn{
     width: 40px;
     height: 30px;
     padding-bottom: 5px;
+}
+
+#homepg{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
 }
