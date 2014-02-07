@@ -48,6 +48,7 @@ p{
 
 #homepg{
 	width: 100%;
+	clear:both;
 }
 
 body{
@@ -55,3 +56,18 @@ body{
 	margin-right: 20px;
 	margin-top: 10px;
 }
+
+/*#backContainer{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	float:left;
+}*/
+
+#back{
+	float:left;
+	width: 20px;
+	height: 30px;
+	margin-top: 15px;
+}
+
