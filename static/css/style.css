@@ -25,7 +25,14 @@ p{
 #selectActBtn{
     margin-top: 5px;
     clear: both;
-	/*width: px;*/
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#selectBtnContainer{
+	clear:both;
+	text-align: center;
 }
 
 #notif{
