@@ -11,7 +11,7 @@
 <body onload="run()">
 	<div id="title-bar">
 		<div id="backContainer">
-			<img id="back" onclick="window.location='index.html'" src="img/chevron-left.png"/>
+			<img id="back" class="imgBtn" onclick="window.location='index.html'" src="img/chevron-left.png"/>
 			<!--<button class="btn" id="backBtn" onclick="window.location='index.html'"></button>-->
 		</div>
 	<table id="header"> <tr>
@@ -44,6 +44,9 @@
     <script type="text/javascript">
 	function run(){
 		$('.btn').button();
+		$('#addActBtn').click(function() {
+			window.location= 'addActivity.html';
+		});
 	}
     </script>
 
