@@ -117,7 +117,9 @@ h2{
 }
 
 #actName{
-	width: 95%; 
+	width: 65%; 
+	float: right;
+	margin-bottom: 15px;
 }
 
 .editBtn{
@@ -160,6 +162,6 @@ h2{
 	width: 100%;
 	clear: both; 
 	position: absolute; 
-	bottom: 0px;
+	bottom: 5px;
 	left: 0px;
 }
