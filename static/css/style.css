@@ -120,6 +120,8 @@ h2{
 	width: 65%; 
 	float: right;
 	margin-bottom: 15px;
+	height: 25px;
+	font-size: 16px;
 }
 
 .editBtn{
