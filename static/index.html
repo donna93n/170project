@@ -23,16 +23,23 @@
 
 	<div id="homepg">
 		<p style="float:left;" class="text">Study Mode</p>
-		<div style="float: right;" class="btn-group" data-toggle="buttons-radio">
+		<!--<div style="float: right;" class="btn-group" data-toggle="buttons-radio">
 		    <button type="button" id="selectBtn" class="btn btn-primary text">On</button>
 		    <button type="button" class="btn btn-primary text">Off</button>
-	    	</div>
-		
+	    	</div>-->
+			<div id="switchContainer">
+				<input type="checkbox" id="switch" data-animated="false" data-on="success" data-off="danger">
+			</div>
 		<div id="selectBtnContainer">
 		<button id="selectActBtn" class="btn btn-large text wideBtn">Select Activity</button>
 		</div>
-	    <p class="text">Current Activity: </p>
-	    <a class="text" href="#">See Blocked Notifcations</a>
+
+	    <p class="text"id="curActLabel">Current Activity: </p>
+		<p class="text" id="curAct"></p>
+
+		<div style="clear: both;">
+	    <a class="text" id="notifLink" href="#">See Blocked Notifcations</a>
+		</div>
 	</div>
 
 
@@ -42,7 +49,29 @@
 		$('#selectActBtn').click(function() {
 			window.location= 'activity.html';
 		});
+		
+		$("#notifLink").css("display", "none");
+		$("#switch").bootstrapSwitch();
+		
+		if(!document.getElementById("switch").checked){
+			$("#curAct").text("None");
+		}
+		
+		//event handler 
+		$("#switch").on('switch-change',function(e,data){
+			//console.log("pressed");
+			var on = data.value; 
+			
+			if(on){
+				$("#notifLink").css("display", "inline");
+			}
+			else{
+				$("#notifLink").css("display", "none");
+				$("#curAct").text("None");
+			}
+		});
 	}
+	
 	
 
     </script>
