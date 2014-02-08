@@ -11,9 +11,18 @@ h1{
     font-size: 20px;
 	margin-top: 10px;
 }
+
+.smText{
+	font-size: 20px;
+}
+
 #title-bar{
     margin-bottom: 15px;
     border-bottom: 1px solid lightgrey;
+}
+
+.imgBtn{
+	cursor: pointer;
 }
 
 #header{
@@ -103,6 +112,54 @@ h2{
 	width: 200px;
 }
 
-#editBtn{
+#form-label{
+	margin-right: 5px; 
+}
+
+#actName{
+	width: 95%; 
+}
+
+.editBtn{
 	float: right; 
+	width: 60px;
+	height: 40px;
+}
+
+.labels{
+	float: left;
+}
+
+.editBtn{
+	float: right; 
+}
+
+/*for a row of text/buttons placed side by side*/
+/*.row{
+	width: 100%;
+	clear: both; 
+}*/
+
+.formBtn{
+	width: 42%;
+}
+
+.cancelBtn{
+	float: left;
+	margin-left: 20px;
+	
+}
+
+.saveBtn{
+	float: right; 
+	margin-right: 20px;
+	
+}
+
+.bottomrow{
+	width: 100%;
+	clear: both; 
+	position: absolute; 
+	bottom: 0px;
+	left: 0px;
 }
