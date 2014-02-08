@@ -3,7 +3,7 @@ h1{
 	float: left; 
 }
 
-#selectActTitle{
+#selectActTitle, #tmpTitle{
 	font-size: 25px;
 }
 
@@ -120,7 +120,7 @@ h2{
 	width: 65%; 
 	float: right;
 	margin-bottom: 15px;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .editBtn{
@@ -136,12 +136,6 @@ h2{
 .editBtn{
 	float: right; 
 }
-
-/*for a row of text/buttons placed side by side*/
-/*.row{
-	width: 100%;
-	clear: both; 
-}*/
 
 .formBtn{
 	width: 42%;
@@ -163,6 +157,6 @@ h2{
 	width: 100%;
 	clear: both; 
 	position: absolute; 
-	bottom: 5px;
+	bottom: 10px;
 	left: 0px;
 }
