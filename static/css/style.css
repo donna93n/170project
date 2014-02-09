@@ -1,6 +1,7 @@
 h1{
     font-size: 35px;
-	float: left; 
+	/*float: left; */
+	text-align: center;
 }
  h2{
 	padding-top: 20px;
@@ -8,7 +9,7 @@ h1{
 	padding-bottom: 20px;
 	text-align: center;
  }
-
+ 
 #selectActTitle, #tmpTitle{
 	font-size: 25px;
 }
@@ -25,6 +26,7 @@ h1{
 #title-bar{
     margin-bottom: 15px;
     border-bottom: 1px solid lightgrey;
+	width:100%;
 }
 
 .imgBtn{
@@ -61,13 +63,20 @@ p{
 	text-align: center;
 }
 
+#offBtn{
+	width: 40px;
+    height: 30px;
+    padding-bottom: 5px;
+	margin-top: auto;
+}
 
-#helpBtn{
+#menuBtn{
     width: 40px;
     height: 30px;
     padding-bottom: 5px;
 	margin-top: auto;
-	margin-left: 15px;
+	/*margin-left: 15px;*/
+	float: right;
 	
 }
 
@@ -95,7 +104,8 @@ body{
 	float:left;
 	width: 15px;
 	height: 25px;
-	margin-top: 15px;
+	margin-top: auto;
+	
 }
 
 .wideBtn{
@@ -190,4 +200,8 @@ h2{
 
 #pw{
 	margin-top: 5px;
+}
+
+.menu{
+	float:right;
 }
