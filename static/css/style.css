@@ -2,6 +2,12 @@ h1{
     font-size: 35px;
 	float: left; 
 }
+ h2{
+	padding-top: 20px;
+	font-size: 35px;
+	padding-bottom: 20px;
+	text-align: center;
+ }
 
 #selectActTitle, #tmpTitle{
 	font-size: 25px;
@@ -87,8 +93,8 @@ body{
 
 #back{
 	float:left;
-	width: 20px;
-	height: 30px;
+	width: 15px;
+	height: 25px;
 	margin-top: 15px;
 }
 
@@ -159,4 +165,29 @@ h2{
 	position: absolute; 
 	bottom: 10px;
 	left: 0px;
+}
+
+#email, #pw{
+	height: 25px;
+	font-size: 15px;
+	width: 100%; 
+}
+
+#loginpg, #signuppg{
+	width:100%;
+	text-align: center
+}
+
+.loginpgBtn{
+	width: 75px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#email{
+	margin-bottom: 5px;
+}
+
+#pw{
+	margin-top: 5px;
 }
