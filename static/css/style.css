@@ -75,9 +75,11 @@ p{
     height: 30px;
     padding-bottom: 5px;
 	margin-top: auto;
-	/*margin-left: 15px;*/
 	float: right;
-	
+}
+
+.menuCol{
+	width: 40px;
 }
 
 #homepg{

@@ -10,15 +10,33 @@
 <a name="top"></a> 
 <body onload="run()">
 	<div id="title-bar">
-		<div id="backContainer">
-			<img class="imgBtn" id="back" onclick="window.location='index.html'" src="img/chevron-left.png"/>
-			<!--<button class="btn" id="backBtn" onclick="window.location='index.html'"></button>-->
-		</div>
-	<table id="header"> <tr>
-		<td>
-	    <h1>Help</h1>
-		</td>
-	</tr></table>
+		<table style="width:100%">
+			<tr>
+			<td>
+				<div id="backContainer">
+				<img id="back" class="imgBtn" onclick="window.location='index.html'" src="img/chevron-left.png"/>
+				</div>
+			</td>
+			
+			<td class="title">
+				<h1>Help</h1>
+			</td>
+				
+			<td class="menuCol">
+				<div class="btn-group menu">
+				<button class="btn"  data-toggle="dropdown" id="menuBtn">
+				<i class="icon-th-list"></i>
+				</button>
+					<ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu">
+						<li><a tabindex="-1" href="index.html">Home</a></li>
+						<li><a tabindex="-1" href="help.html">Help</a></li>
+						<li><a tabindex="-1" href="login.html">Sign out</a></li>
+					 </ul>
+				</div>
+				
+			</td>
+			</tr>
+		</table>
 	</div>
 
 	<div id="helppg" style="clear:both;">
