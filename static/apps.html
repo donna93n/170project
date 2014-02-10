@@ -10,30 +10,16 @@
 
 <body onload="run()">
 	<div id="title-bar">
-		<!--<div id="backContainer">
-			<img id="back" class="imgBtn" onclick="window.location='activity.html'" src="img/chevron-left.png"/>
-		</div>
-	<table id="header"> <tr>
-		<td>
-	    <h1>Add Activity</h1>
-		</td>
-		<td>
-	    <button class="btn" id="menuBtn" onclick="window.location='help.html'">
-			<i class="icon-question-sign"></i>
-		</button>
-		</td>
-	</tr></table>-->
-	
 		<table style="width:100%">
 			<tr>
 			<td>
 				<div id="backContainer">
-				<img id="back" class="imgBtn" onclick="window.location='activity.html'" src="img/chevron-left.png"/>
+				<img id="back" class="imgBtn" onclick="window.location='addActivity.html'" src="img/chevron-left.png"/>
 				</div>
 			</td>
 			
 			<td class="title">
-				<h1>Add Activity</h1>
+				<h1>Edit Apps</h1>
 			</td>
 				
 			<td class="menuCol">
@@ -53,36 +39,36 @@
 		</table>
 	</div>
 
-	<div id="addpg" style="clear:both;">
-		<form class="form-horizontal" role="form">
-			<div class="form-group">
-				<label id="form-label" for="actName" class="col-sm-2 control-label smText">Activity:</label>
-				<div class="col-sm-10">
-					<input type="text" class="form-control" id="actName" placeholder="Enter activity name">
-				</div>
-			</div>
-			<!--<div class="input-group input-group-lg">
-				<input type="text" class="form-control input-lg" placeholder="efsg">
-			</div>-->
-		</form>
+	<div id="contactspg" style="clear:both;">
+		<p>Select apps to block</p>
+		<table id="contactsList" style="width: 100%;">
+		<tr>
+		<td>
+			<p class="appNames">Facebook</p>
+		</td>
+		<td>
+			<label class="checkbox">
+			  <input id="checkboxes" type="checkbox" value="">  
+			</label>
+		</td>
 		
-		<div style="width: 100%; clear: both;">
-			<p class="labels smText">Allowed Contacts</p>
-			<button id="editContacts" class="btn btn-default editBtn">Edit</button>
-		</div>
-		
-		<div style="width: 100%; clear:both; padding-top:10px;">
-			<p class="labels smText">Blocked Apps</p>
-			<button id="editApps" class="btn btn-default editBtn">Edit</button>
-		</div>
-		
+		</tr>
+		<tr>
+		<td>
+			<p class="appNames">Gmail</p>
+		</td>
+		<td>
+			<label class="checkbox">
+			  <input id="checkboxes" type="checkbox" value="">  
+			</label>
+		</td>
+		</tr>
+		</table>
 		
 		<div class="bottomrow">
 			<button id="cancel" class="btn btn-default btn-large formBtn cancelBtn">Cancel</button>
 			<button class="btn btn-primary btn-large formBtn saveBtn">Save</button>
 		</div>
-		
-	
 	</div>
 
 
@@ -90,17 +76,8 @@
 	function run(){
 		$('.btn').button();
 		$('#cancel').click(function() {
-			window.location= 'activity.html';
+			window.location= 'addActivity.html'; //link back to tmp pg too
 		});
-		
-		$('#editContacts').click(function() {
-			window.location= 'contacts.html';
-		});
-		
-		$('#editApps').click(function() {
-			window.location= 'apps.html';
-		});
-		
 	}
     </script>
 

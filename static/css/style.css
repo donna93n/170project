@@ -211,3 +211,19 @@ h2{
 li{
 	font-size: 16px;
 }
+
+.contactNames, .appNames{
+	font-size: 20px;
+	margin-top: auto;
+	margin-bottom: auto; 
+}
+
+#searchbar{
+	width: 95%; 
+}
+
+#checkboxes{
+	width: 20px; 
+	height: 20px;
+	float:right;
+}
