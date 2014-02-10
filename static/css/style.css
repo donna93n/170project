@@ -227,3 +227,9 @@ li{
 	height: 20px;
 	float:right;
 }
+
+.instr{
+	padding-top: 0px; 
+	padding-bottom: 0px;
+	text-align: center;
+}
